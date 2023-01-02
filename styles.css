@@ -1,0 +1,6 @@
+#heading {
+    background-color: rgb(132, 132, 212);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
