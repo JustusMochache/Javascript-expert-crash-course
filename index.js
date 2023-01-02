@@ -78,3 +78,20 @@ for (oo in obj){
 }
 
 // conditionals
+
+const myNym = 2;
+
+switch(myNym){
+    case 1:
+        console.log("it was 1");
+        break;
+
+    case 2:
+        console.log("it was 2");
+        break;
+
+    default:
+        console.log("default");
+
+
+}
