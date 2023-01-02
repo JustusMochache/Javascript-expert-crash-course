@@ -95,3 +95,17 @@ switch(myNym){
 
 
 }
+
+// itenerary operator
+
+console.log(myNym > 1 ? "its greater than One" : "its less than 1");
+
+// error handling
+try{
+    throw  new Error("ERRORRR");
+} catch(error) {
+    console.log("error");
+}
+
+throw new Error("oh nooo");
+
