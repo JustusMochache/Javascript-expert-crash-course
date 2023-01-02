@@ -53,3 +53,28 @@ function callFunction(func, param){
 
 // callFunction(addTwo, 10);
 console.log(callFunction(addTwo, 10));
+
+
+// loops
+
+for (let i = 0; i < 4; i++){
+    console.log(i);
+    console.log("===================");
+
+    if (i == 1){
+        continue
+    }
+
+    console.log(i);
+}
+
+const obj = {
+    name: "Justus",
+    course: "Frontend Expert"
+};
+
+for (oo in obj){
+    console.log(oo, obj[oo]);
+}
+
+// conditionals
